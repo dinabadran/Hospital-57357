@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/*  start navbar section */
+
+.nav-home{
+    display: flex;
+    background-color:#212121;
+    height: 70PX;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-home a{
+    color: white;
+    text-decoration: none;
+    font-size: 21PX;
+    font-family: monospace;
+    letter-spacing: 1PX;
+    margin-left: 16PX;
+
+}
+/*  END navbar section */
+
+
+/*start header home section */
+.header-home{
+    background-image:url(../img/back.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position:  center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-home h2{
+    color: white;
+    margin-bottom: 15px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-size: 33px;
+}
+
+.header-home p{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.header-home button{
+    background-color: hsl(328.75deg 76.19% 24.71%);
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 15px;
+color: white;
+}
+
+.header-home :nth-of-type(2){
+    background-color:hsl(165.29deg 53.68% 37.25%) ;
+    margin-left: 10px;
+}
+/*end header home section */
+
+
+/* start children section */
+
+.children h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: 700px;
+
+}
+.children hr{
+    width:10%;
+    margin: auto;
+    height: 2px;
+    background-color:red;
+    border: none;
+    border-radius: 2px;
+}
+
+.children-content{
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 29px;
+    padding: 10px;
+}
+.children-content img{
+    width: 40%;
+    margin-bottom:50px ;
+    border-radius: 2px;
+}
+
+.children-content p{
+  width: 40%;
+    text-align: center;
+    font-size: 31px;
+    font-family: monospace; 
+}
+.children-content p::first-line{
+ line-height:1.7;
+} 
+
+.children-content p::first-letter{
+    color: red;
+    font-size: 39px;
+    font-weight: bold;
+
+}
+
+/* end children section */
+ 
+
+/* start about section */
+
+.about{
+    background-color:hsl(0deg 0% 97.65%) ;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.about-content{
+    width: 40%;
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+   border: 2px solid #2121211a;
+    }
+
+.about-content img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    height:350px;
+}
+.about-content p{
+    text-align: center;
+    margin-top: 3px;
+    font-family: monospace;
+    font-weight: bold;
+}
+/* end about section */
+
+
+
+ /* =====================================================================================================================
+ 
+                                start contact home section  and  footer section
+                                
+ ========================================================================================================================*/
+ 
+ .contact-home ,.footer-home{
+     background-image:url(../img/contact\ us.gif) ;
+     height: 400px;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+    .contact-home h2 ,.footer-home h2{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-align: center;
+    font-family: monospace;
+}
+
+.contact-home form ,.footer-home form{
+    
+    width: 80%;
+}
+.contact-home input , textarea ,.footer-home form input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.contact-home button ,.footer-home form button{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #212121;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+/* =====================================================================================================================
+
+                              end contact home section  and  footer section
+
+========================================================================================================================*/
+
+/* start footer section */
+.footer-home{
+    background-image: url(../img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-size: cover;
+    height: 300px;
+}
+/*   end footer section */
